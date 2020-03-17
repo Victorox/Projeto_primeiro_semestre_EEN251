@@ -19,18 +19,22 @@ Propostas:
 - Composteira
 
 ## - Alimentador de Pet Automatico
-  Vamos precisar de 2 vasilhas para a raçao e a água. Para o deposito da raçao, sera usado um timer para soltar a medida de raçao necessaria nos horarios de refeiçao do animal. 
+  Para o deposito da raçao, sera usado um timer para soltar a medida de raçao necessaria nos horarios de refeiçao do animal. 
   
   Já na vasilha da agua, sera instalado um sensor de obstaculo, para que a água sempre se mantenha no mesmo nivel. Quando ela descer, ela enche, quando ela chegar na altura do sensor ela para.
   
   Materiais:
   
-    -- Sensor de obstaculo
+    -- 2 recipientes para os alimentos
+    
+    -- Sensor de obstaculo - IR
 
     -- Timer
     
     -- Bomba de água
     
-    -- Módulo Bluetooth 
+    -- Módulo Bluetooth 4.0 HC 08
     
-    -- Mini motor
+    -- Mini bomba de água DC-JT160
+    
+    -- Fonte 5V - 2A - Aalimentação
