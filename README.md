@@ -10,15 +10,15 @@
 
 -------------------------------------------------------------------
 
-Propostas:
+## Propostas:
 
-## - Fechadura Toc Toc
+### - Fechadura Toc Toc
 
-## - Dispensador Automatico de Remedios
+### - Dispensador Automatico de Remedios
 
-## - Composteira
+### - Composteira
 
-## - Alimentador de Pet Automatico
+### - Alimentador de Pet Automatico
   Para o deposito da raçao, sera usado um timer para soltar a medida de raçao necessaria nos horarios de refeiçao do animal. 
   
   Já na vasilha da agua, sera instalado um sensor de obstaculo, para que a água sempre se mantenha no mesmo nivel. Quando ela descer, ela enche, quando ela chegar na altura do sensor ela para.
