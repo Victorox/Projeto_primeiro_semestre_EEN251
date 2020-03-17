@@ -18,5 +18,7 @@ Propostas:
 
 - Composteira
 
-- Alimentador de Pet Automatico
-  -
+## - Alimentador de Pet Automatico
+  Vamos precisar de 2 vasilhas para a raçao e a água. Para o deposito da raçao, sera usado um timer para soltar a medida de raçao necessaria nos horarios de refeiçao do animal. 
+  Já na vasilha da agua, sera instalado um sensor de obstaculo, para que a água sempre se mantenha no mesmo nivel. Quando ela descer, ela enche, quando ela chegar na altura do sensor ela para.
+  
