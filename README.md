@@ -24,8 +24,13 @@ Propostas:
   Já na vasilha da agua, sera instalado um sensor de obstaculo, para que a água sempre se mantenha no mesmo nivel. Quando ela descer, ela enche, quando ela chegar na altura do sensor ela para.
   
   Materiais:
+  
     -- Sensor de obstaculo
+
     -- Timer
+    
     -- Bomba de água
+    
     -- Módulo Bluetooth 
+    
     -- Mini motor
