@@ -12,11 +12,11 @@ Rodrigo Teixeira / 16.04031-7 / Rodrigotxs |
 
 Propostas:
 
-- Fechadura Toc Toc
+## - Fechadura Toc Toc
 
-- Dispensador Automatico de Remedios
+## - Dispensador Automatico de Remedios
 
-- Composteira
+## - Composteira
 
 ## - Alimentador de Pet Automatico
   Para o deposito da raçao, sera usado um timer para soltar a medida de raçao necessaria nos horarios de refeiçao do animal. 
