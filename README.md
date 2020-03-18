@@ -16,7 +16,24 @@
 
 ### - Dispensador Automatico de Remedios
 
-### - Composteira
+### - Composteira Elétrica
+
+  A ideia da composteira elétrica é de transformar lixos domésticos em adubo, podendo se adaptar com a umidade do ambiente, temperatura, ainda por cima podendo avisar o usuário quando está pronto o adubo.
+
+  Materiais:
+
+    --Sensor de umidade solo
+    
+    --Módulo Bluetooth 4.0 HC 08
+    
+    --3 Sensor Temp. Umidade DTH11
+    
+    --Display OLED i2c OLED 128x32 Px
+    
+    --Fonte 5V - 2A – Aalimentação
+    
+    --Bateria Lition para wearables
+
 
 ### - Alimentador de Pet Automatico
   Para o deposito da raçao, sera usado um timer para soltar a medida de raçao necessaria nos horarios de refeiçao do animal. 
