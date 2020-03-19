@@ -12,9 +12,27 @@
 
 ## Propostas:
 
-### - Fechadura Toc Toc
-
 ### - Dispensador Automatico de Remedios
+
+  Tem como objetivo disponibilizar a medicação para o usuário no tempo e dosagem correta de forma automatizada avisando via som e/ou aplicativo o usuário no horário correto de ingestão.
+  
+  Materiais:
+  
+    -- Displays para horário
+    
+    -- Buzzer
+    
+    -- Leds
+    
+    -- LCD - LDM16L
+    
+    -- ATMEGA328 (microcontrolador)
+    
+    -- Crystal Oscillator
+    
+    -- Bateria/Fonte 5V
+
+### - Fechadura Toc Toc
 
   Para a fechadura eletrônica, será utilizado um motor servo para girar a lingueta. Um microfone para receber os sinais (certa quantidade de palmas, por exemplo), mudando o circuito com um CI555. Uma bateria externa, para mante-la ligada. Um display para mostrar se o acesso foi permitido ou negado. E dois puxadores para facilitar o movimento.
   
