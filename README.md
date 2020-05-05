@@ -24,7 +24,7 @@
     
     -- LCD - LDM16L
     
-    -- ATMEGA328 (microcontrolador)
+    -- MBED - LPC1768 (Cortex-M3)
     
     -- Crystal Oscillator
     
