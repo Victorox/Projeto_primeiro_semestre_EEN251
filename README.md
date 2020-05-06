@@ -14,15 +14,11 @@
 
   Tem como objetivo a mistura automatica de cafe e leite, adicionando açucar ao mesmo. Com isso sera possivel a confecção de cappucinos, lattes, etc.
   
-  Materiais:
+  Materiais: 
   
-    -- Displays para horário
-    
-    -- Buzzer
-    
     -- Leds
     
-    -- LCD - LDM16L
+    -- Display OLED i2c OLED 128x32 Px
     
     -- MBED - LPC1768 (Cortex-M3)
     
@@ -33,3 +29,5 @@
     -- 2 Sensores de distância – Ultrassom HC-SR04
     
     -- 2 Mini bombas de água DC-JT160
+    
+    -- Telado Matriz 4x4
