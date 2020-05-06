@@ -24,7 +24,7 @@
     
     -- Ponte H baixa potência - L298n
     
-    -- Bateria/Fonte 5V
+    -- Fonte 5V - 2A - Aalimentação
     
     -- 2 Sensores de distância – Ultrassom HC-SR04
     
