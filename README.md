@@ -30,4 +30,4 @@
     
     -- 2 Mini bombas de água DC-JT160
     
-    -- Telado Matriz 4x4
+    -- Teclado matrix 4x4 membrana
