@@ -26,8 +26,10 @@
     
     -- MBED - LPC1768 (Cortex-M3)
     
-    -- Crystal Oscillator
+    -- Ponte H baixa potência - L298n
     
     -- Bateria/Fonte 5V
     
-    -- 2 Sensores Analógicos de Liquido
+    -- 2 Sensores de distância – Ultrassom HC-SR04
+    
+    -- 2 Mini bombas de água DC-JT160
