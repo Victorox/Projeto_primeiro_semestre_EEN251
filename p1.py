@@ -5,6 +5,7 @@ import os
 comunicacaoSerial = serial.Serial('/dev/ttyACM0', 9600)
 
 
+L=[]
 
 while 1 :
   variavel = comunicacaoSerial.readline()  
@@ -15,8 +16,9 @@ while 1 :
 
   for tecla in variavel:
     print(tecla)
-    letra=0
-    if tecla == ("A"):
+    letra=""
+    numero=""
+    if tecla in ("A","C"):
         letra = tecla
     else:
         numero = tecla
@@ -26,16 +28,16 @@ while 1 :
     
     if "A" == letra:
         L=[]
-        numero=0
-        x=0
-        while x < len(L):
+        
+        '''while x < len(L):
             x = numero
             L.append(x)
-            print(L)
+            print(L)'''
         
     
     
     if "C" == letra:
+        print(L)
         reproduzir(L)
     
     
@@ -44,82 +46,125 @@ while 1 :
         pygame.init()
         pygame.mixer.music.load('A-Conga-Hi-Muted-1.mp3')
         pygame.mixer.music.play()
+        L.append(numero)
+            
     if "2" == numero:
         pygame.init()
         pygame.mixer.music.load('Clap.mp3')
         pygame.mixer.music.play()
+        L.append(numero)
+        
     if "3" == numero:
         pygame.init()
         pygame.mixer.music.load('Bright-Ride.mp3')
         pygame.mixer.music.play()
+        L.append(numero)
+        
     if "4" == numero:
         pygame.init()
         pygame.mixer.music.load('Crash.mp3')
         pygame.mixer.music.play()
+        L.append(numero)
+        
     if "5" == numero:
         pygame.init()
         pygame.mixer.music.load('Kick-808-Thud.mp3')
         pygame.mixer.music.play()
+        L.append(numero)
+        
     if "6" == numero:
         pygame.init()
         pygame.mixer.music.load('Kick-Smooth-Punt.mp3')
         pygame.mixer.music.play()
+        L.append(numero)
+        
     if "7" == numero:
         pygame.init()
         pygame.mixer.music.load('Reverb Impact 5.mp3')
-        pygame.mixer.music.play()    
+        pygame.mixer.music.play()
+        L.append(numero)
+        
     if "8" == numero:
         pygame.init()
         pygame.mixer.music.load('Snare.mp3')
         pygame.mixer.music.play()
-    if "9" == numero:
-                pygame.init()
-                pygame.mixer.music.load('Snare.mp3')
-                pygame.mixer.music.play()    
-          
+        L.append(numero)
         
+    if "9" == numero:
+        pygame.init()
+        pygame.mixer.music.load('Snare.mp3')
+        pygame.mixer.music.play()    
+        L.append(numero)      
+            
             
     def reproduzir(L):
-        x=0
-        while x < len(L):
-            numero = L[x]
+        
+        for numero in L:
                 
             if "1" == numero:
                 pygame.init()
                 pygame.mixer.music.load('A-Conga-Hi-Muted-1.mp3')
                 pygame.mixer.music.play()
+                while pygame.mixer.music.get_busy():
+                    pass
+                
             if "2" == numero:
                 pygame.init()
                 pygame.mixer.music.load('Clap.mp3')
                 pygame.mixer.music.play()
+                while pygame.mixer.music.get_busy():
+                    pass
+                
+           
+            
             if "3" == numero:
                 pygame.init()
                 pygame.mixer.music.load('Bright-Ride.mp3')
                 pygame.mixer.music.play()
+                while pygame.mixer.music.get_busy():
+                    pass
+                
             if "4" == numero:
                 pygame.init()
                 pygame.mixer.music.load('Crash.mp3')
                 pygame.mixer.music.play()
+                while pygame.mixer.music.get_busy():
+                    pass
+                
             if "5" == numero:
                 pygame.init()
                 pygame.mixer.music.load('Kick-808-Thud.mp3')
                 pygame.mixer.music.play()
+                while pygame.mixer.music.get_busy():
+                    pass
+                
             if "6" == numero:
                 pygame.init()
                 pygame.mixer.music.load('Kick-Smooth-Punt.mp3')
                 pygame.mixer.music.play()
+                while pygame.mixer.music.get_busy():
+                    pass
+                
             if "7" == numero:
                 pygame.init()
                 pygame.mixer.music.load('Reverb Impact 5.mp3')
-                pygame.mixer.music.play()    
+                pygame.mixer.music.play()
+                while pygame.mixer.music.get_busy():
+                    pass
+                
             if "8" == numero:
                 pygame.init()
                 pygame.mixer.music.load('Snare.mp3')
                 pygame.mixer.music.play()
+                while pygame.mixer.music.get_busy():
+                    pass
+                
             if "9" == numero:
                 pygame.init()
                 pygame.mixer.music.load('Snare.mp3')
                 pygame.mixer.music.play()
+                while pygame.mixer.music.get_busy():
+                    pass
+                   
             
             
-            x += 1
