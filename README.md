@@ -33,7 +33,6 @@
     -- 2 Mini bombas de água DC-JT160
     
     -- Teclado matrix 4x4 membrana
-### Assistir ao vídeos
-
+### Raspberry PI com Arduino
 [![Programação em python](http://img.youtube.com/vi/HFNnqhk_Cmc/0.jpg)](http://www.youtube.com/watch?v=HFNnqhk_Cmc "Programação em python finalizada")
 
