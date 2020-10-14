@@ -12,9 +12,9 @@
 
 -------------------------------------------------------------------
 
-### - Cafeteira Automatica
+### - Launch Pad
 
-  Tem como objetivo a mistura automatica de cafe e leite, adicionando açucar ao mesmo. Com isso sera possivel a confecção de cappucinos, lattes, etc.
+  Tem como objetivo reproduzir sons na ordem desejada.
   
   Materiais: 
   
@@ -33,3 +33,7 @@
     -- 2 Mini bombas de água DC-JT160
     
     -- Teclado matrix 4x4 membrana
+### Assistir ao vídeos
+
+[![Programação em python](http://img.youtube.com/vi/HFNnqhk_Cmc/0.jpg)](http://www.youtube.com/watch?v=HFNnqhk_Cmc "Programação em python finalizada")
+
