@@ -26,8 +26,8 @@
     
     -- Teclado matrix 4x4 membrana
     
-  Primeiramente programamos o *Arduino* para que ele fizesse a leitura do teclado de membrana quando clicassemos./n
-  Com isso finalizado, conectamos o *Arduino* com o *Raspberry PI*, que recebia as informações do teclado em protocolo serial em formato *JSON*./n
+  Primeiramente programamos o *Arduino* para que ele fizesse a leitura do teclado de membrana quando clicassemos.\n
+  Com isso finalizado, conectamos o *Arduino* com o *Raspberry PI*, que recebia as informações do teclado em protocolo serial em formato *JSON*.\n
   Através do progama em *Python* e da biblioteca *Pygame*, fizemos com que cada tecla reproduzisse um som. Além disso, deixamos uma tecla para gravar e uma para reproduzir.
 
 #### Video do projeto
